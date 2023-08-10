@@ -63,3 +63,6 @@ This table is linked to the "product" table through the "product_id" foreign key
 ### product_price_change_log
 A log of product price changes is stored in the product_price_change_log table. It logs the operation's nature, modification timestamps, old and new prices, discount percentages, and the user who carried out the operation.
 This table is also linked to the "product" table through the "product_id" foreign key.
+
+### Query to Join product and product_price tables
+To access details about products, including their current prices and update information, a query is given. Based on the product_id field, this query executes an inner join between the product and product_price tables.
