@@ -13,13 +13,13 @@ The parser reads through the JSON string character by character and constructs t
 ### Parsing JSON
 The parsing process is achieved through several private methods in the JSONParser class:
 
-parseObject: Parses a JSON object, converting it into a Map<String, Object> data structure.
-parseValue: Parses JSON values, including objects, arrays, strings, numbers, and boolean values.
-parseStringArray: Parses a JSON array of strings.
-parseString: Parses a JSON string enclosed in double quotes.
-parseNumber: Parses a JSON number, including integers and floating-point numbers.
-customTrim: Trims whitespace characters from the input character array.
-validateColon: Validates the presence of a colon (:) symbol in the JSON.
+* parseObject: Parses a JSON object, converting it into a Map<String, Object> data structure.
+* parseValue: Parses JSON values, including objects, arrays, strings, numbers, and boolean values.
+* parseStringArray: Parses a JSON array of strings.
+* parseString: Parses a JSON string enclosed in double quotes.
+* parseNumber: Parses a JSON number, including integers and floating-point numbers.
+* customTrim: Trims whitespace characters from the input character array.
+* validateColon: Validates the presence of a colon (:) symbol in the JSON.
 
 ## Problem 2: Serializing and deserializing a binary tree
 This Java program illustrates a preorder traversal method for serializing and deserializing a binary tree. 
