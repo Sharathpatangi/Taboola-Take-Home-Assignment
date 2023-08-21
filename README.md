@@ -1,5 +1,5 @@
 # Take-Home-Assignment
-Take-home assignment for an internship role
+Take-home assignment for an internship role.
 Consist of 3 problems solved in Java and MySQL languages.
 
 ## Problem 1: Implementation of JSON parser in Java.
